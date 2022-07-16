@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+header{
+    width: 100%;
+    height: 94px;
+    background-color: #000;
+    margin-bottom: 51px;
+    padding: 12px 100px;
+}
+h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -999999999px;
+    margin-right: 168px;
+    float: left;
+}
+nav li{
+    float: left;
+    margin-right: 20px;
+    padding-top: 24px;
+}
+nav li a{
+    color: #ffffff;
+}
+h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.first{
+    margin-left: 110px;
+}
+.second{
+    margin-left: 110px;
+}
+.second .firstrow{
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.firstrow{
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 22px;
+}
+.firstrow section{
+    width: 300px;
+    height: 244px;
+    border: 1px solid #000;
+    background-image: url(../img/sound.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    background-position-y: 58px ;
+    margin-bottom: 10px;
+}
+.like{
+    background-image: url(../img/like.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    margin-left: 250px;
+}
+h3{
+    padding-left: 12px;
+    padding-top: 114px;
+    margin-bottom: 14px;
+}
+.firstrow section p{
+    padding-left: 12px;
+    font-size: 14px;
+}
+.firstrow a{
+    color: #000000;
+}
+.social{
+    width: 50px;
+    height: 50px;
+    top: 214px;
+    right: 0;
+    position: fixed;
+}
+.fb, .insta{
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: unset;
+}
+.fb a, .insta a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.fb{
+    background-image: url(../img/fb.png);
+}
+.insta{
+    background-image:url(../img/instagram.png);
+}
+footer{
+    width: 100%;
+    height: 354px;
+    background-color: #000;
+    padding-bottom: 0px;
+    margin-top: 100px;
+}
+footer img{
+    background-image: url(../img/music-note.png);
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img{
+    padding-left: 605px;
+    padding-top: 27px;
+    padding-bottom: 26px;
+
+}
+.footertext{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footertext1{
+    color: #ffffff;
+    text-align: center;
+
+}
